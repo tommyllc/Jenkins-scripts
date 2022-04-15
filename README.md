@@ -39,7 +39,7 @@ node{
 }      
       }
 
-  // stage('9.EmailAlerts'){
+  stage('9.EmailAlerts'){
     emailext body: '''Hi
 
 Build status for boa app.
